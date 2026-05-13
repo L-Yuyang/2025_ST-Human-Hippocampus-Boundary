@@ -42,6 +42,7 @@ https://pan.quark.cn/s/ce11e7643be1
 
 While the representative samples above are provided for quick testing, the complete raw datasets for this study must be obtained from the following official repositories:
 Spatial Transcriptomics (Stereo-seq) Data: Deposited in the CNGB Nucleotide Sequence Archive (CNSA) under accession code CNP0005077 (https://db.cngb.org/search/project/CNP0005077/).
+
 Single-nucleus RNA-seq (snRNA-seq) Data: Sourced from the Gene Expression Omnibus (GEO) under platform accession GSE186538 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186538).
 
 Users intended to fully reproduce the entire study from scratch should download the raw matrices or FASTQ files from these sources.
