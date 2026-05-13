@@ -36,6 +36,7 @@ Processed R object containing spatial transcriptomic data for a representative A
 
 ## Data availability
 The following .rds files are available via a Quark cloud link:
+
 Con3.1.bin100.CA1_Sub.rds
 
 AD6.1.bin100.CA1_Sub.rds
