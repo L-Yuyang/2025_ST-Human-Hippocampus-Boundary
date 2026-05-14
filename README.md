@@ -3,6 +3,9 @@ This repository provides the computational pipeline for our study on the human C
 
 
 ## Files
+### ComputingEnvironment_PackageVersions.docx
+Software environment and package version information used in the scRNA-seq analysis workflow.
+
 ### Fig1_bayesDEG.ipynb
 Main notebook for spatial transcriptomic analysis in Figure 1 and associated Supplementary Figures, including:
 Implementation of the Bayesian-based differential expression analysis.
