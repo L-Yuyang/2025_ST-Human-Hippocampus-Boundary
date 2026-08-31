@@ -31,10 +31,10 @@ Notebook for Figure 5, covering:
 Functional enrichment analysis (GO/KEGG) for region-specific markers.
 Advanced bioenergetic and metabolic pathway scoring (AUCell-based) within the identified domains.
 
-### Con1.1.bin100.CA1_Sub.rds
+### Con3.1.bin100.CA1_Sub.rds
 Processed R object containing spatial transcriptomic data for a representative Control sample (bin100 resolution). This file includes the specific CA1 and Subiculum regions extracted based on MPPED1 expression.
 
-### AD1.1.bin100.CA1_Sub.rds
+### AD6.1.bin100.CA1_Sub.rds
 Processed R object containing spatial transcriptomic data for a representative Alzheimer's Disease sample (bin100 resolution). This file includes the specific CA1 and Subiculum regions extracted based on MPPED1 expression.
 
 ## Data availability
