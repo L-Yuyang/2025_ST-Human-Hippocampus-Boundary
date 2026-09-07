@@ -8,23 +8,47 @@ Software environment and package version information used in the scRNA-seq analy
 
 ### Fig1_bayesDEG.ipynb
 
-Notebook for Figure 1 and FigS1, covering the initial spatial transcriptomic parcellation of the human hippocampal CA1–Subiculum interface. Analyses include sample overview, CA1-region extraction using the CA1-enriched marker MPPED1, BayesSpace-based unsupervised clustering within the putative CA1 territory, and identification of transcriptionally distinct domains corresponding to CA1 and Subiculum. FigS1 extends this analysis to AD samples.
+Analysis for Figure 1, including MPPED1-based CA1 region extraction and BayesSpace-based identification of molecularly distinct CA1/Sub domains in control human hippocampus.
+
+### FigS1_bayesDEG.ipynb
+
+Supporting analysis for FigS1, showing MPPED1 expression and BayesSpace-based CA1/Sub parcellation in AD human hippocampal samples.
 
 ### Fig2_sn.ipynb
 
-Notebook for Figure 2 and FigS2, focusing on cross-modal validation of Subiculum marker genes using public human hippocampal snRNA-seq data. Analyses include CA1/Sub cell extraction, UMAP visualization of cell types and neuronal subtypes, screening of reported region-specific markers, identification of FN1 as a Sub-enriched marker, and projection of FN1-based Sub/CA1 parcellation onto spatial transcriptomic data. FigS2 includes additional validation of non-signature or subtype-associated genes such as COL5A2, NTNG1, and SEMA3E.
+Analysis for Figure 2, including public human hippocampal snRNA-seq processing, CA1/Sub cell visualization, marker screening, and FN1-based validation of Sub identity.
+
+### FigS2_sn.ipynb
+
+Supporting analysis for FigS2, including additional snRNA-seq marker evaluation and spatial validation of CA1/Sub annotations in AD samples.
 
 ### Fig3.ipynb
 
-Notebook for Figure 3 and FigS3-4, focusing on validation and cross-platform benchmarking of CA1–Sub molecular markers. Analyses include differential expression between molecularly defined Sub and CA1 regions, evaluation of Sub-enriched markers including ETV1, PCSK1, CAMK2G, and FN1, RNAscope-based validation of FN1 and ETV1, comparison with public 10X Genomics spatial transcriptomic data, and expression-gradient analysis across the CA1–Sub interface. FigS3 provides multi-sample spatial visualization and quantification, while FigS4 supports cross-species validation using mouse in situ hybridization and spatial transcriptomic datasets.
+Analysis for Figure 3, including Sub-vs-CA1 marker identification, spatial validation of FN1/ETV1-related patterns, RNAscope validation, 10X spatial data comparison, and CA1–Sub gradient analysis.
+
+### FigS3.ipynb
+
+Supporting analysis for FigS3, showing spatial visualization and quantification of ETV1, PCSK1, CAMK2G, FN1, and ETV1 across samples and validation datasets.
+
+### FigS4.ipynb
+
+Supporting analysis for FigS4, showing mouse brain validation of Sub-enriched Fn1 and Etv1 expression using public spatial transcriptomic datasets.
 
 ### Fig4.ipynb
 
-Notebook for Figure 4 and FigS5, containing region-resolved analysis of Alzheimer’s Disease-associated transcriptional alterations using bin100 spatial transcriptomic data. Analyses include identification of AD-associated DEGs in Sub and CA1, comparison of upregulated and downregulated gene programs, GO enrichment analysis, intersection of Sub-specific markers with AD-related DEGs, hdWGCNA co-expression module construction, module eigengene analysis, spatial visualization of disease-associated modules, and hub-gene/network analysis highlighting Sub-associated bioenergetic remodeling. FigS5 provides supporting volcano plots, marker/module spatial maps, and additional module-score analyses.
+Analysis for Figure 4, including region-resolved AD-vs-control DEG analysis, GO enrichment, Sub-specific marker changes, hdWGCNA module analysis, and M8/NDUFA4-related network characterization.
+
+### FigS5.ipynb
+
+Supporting analysis for FigS5, including AD-associated DEG volcano plots, spatial expression of selected genes, additional module scores, and spatial visualization of M2/M5 modules.
 
 ### Fig5.ipynb
 
-Notebook for Figure 5 and FigS6, covering single-cell spatial transcriptomic analysis of cell type-specific AD-associated changes in Sub and CA1. Analyses include integration of bin100 regional annotations with cellbin-level spatial transcriptomic data, Spatial-ID-based cell type annotation, comparison with public snRNA-seq references, cell-type density analysis, cell-type-specific DEG and enrichment analysis, Jaccard overlap between DEGs and hdWGCNA modules, M8 bioenergetic module scoring in EX_Sub and IN_PVALB neurons, spatial visualization of cell-type-specific module activity, and hub-gene expression analysis including NDUFA4. FigS6 summarizes technical quality control, cell segmentation validation, marker-based cell type annotation, and chip-level sequencing quality metrics.
+Analysis for Figure 5, including cellbin-level cell type annotation, cell-type-specific DEG analysis, M8 module scoring in EX_Sub and IN_PVALB neurons, and NDUFA4 expression analysis.
+
+### FigS6.ipynb
+
+Supporting analysis for FigS6, including cell segmentation validation, cell type marker validation, and chip-level quality-control metrics for spatial transcriptomic data.
 
 
 ### Con3.1.bin100.CA1_Sub.rds
