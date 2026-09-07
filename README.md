@@ -6,19 +6,19 @@ This repository provides the computational pipeline for our study on the human C
 ### ComputingEnvironment_PackageVersions.docx
 Software environment and package version information used in the scRNA-seq analysis workflow.
 
-### Fig1_bayesDEG.ipynb
+### Fig1.ipynb
 
 Analysis for Figure 1, including MPPED1-based CA1 region extraction and BayesSpace-based identification of molecularly distinct CA1/Sub domains in control human hippocampus.
 
-### FigS1_bayesDEG.ipynb
+### FigS1.ipynb
 
 Supporting analysis for FigS1, showing MPPED1 expression and BayesSpace-based CA1/Sub parcellation in AD human hippocampal samples.
 
-### Fig2_sn.ipynb
+### Fig2.ipynb
 
 Analysis for Figure 2, including public human hippocampal snRNA-seq processing, CA1/Sub cell visualization, marker screening, and FN1-based validation of Sub identity.
 
-### FigS2_sn.ipynb
+### FigS2.ipynb
 
 Supporting analysis for FigS2, including additional snRNA-seq marker evaluation and spatial validation of CA1/Sub annotations in AD samples.
 
